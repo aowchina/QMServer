@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="myfields">
+		<field name="id" type="text" default="0" label="ID" readonly="true" class="readonly" description="ID"/>
+		<field name="orderid" type="text" class="readonly" readonly="true" label="订单号" description="订单号"/>
+		<field name="userid" type="text" class="readonly" readonly="true" label="下单用户ID" description="下单用户ID"/>
+		<field name="username" type="text" class="readonly" readonly="true" label="下单者昵称" description="下单者昵称"/>
+		<field name="tel" type="text" class="readonly" readonly="true" label="下单者手机号" description="下单者手机号"/>
+		<field name="tid" type="text" class="readonly" readonly="true" label="下单特惠ID" description="下单特惠ID"/>
+		<field name="tname" type="text" class="readonly" readonly="true" label="下单特惠" description="下单特惠"/>
+		<field name="hospital" type="text" class="readonly" readonly="true" label="对应医院" description="对应医院"/>
+	</fieldset>
+</form>

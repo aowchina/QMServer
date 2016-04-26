@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>com_baoxian</name>
+	<author>WangRui</author>
+	<creationDate>2015-09-29</creationDate>
+	<copyright>(C) 2015 Min-Fo.</copyright>
+	<license></license>
+	<authorEmail>183107471@qq.com</authorEmail>
+	<authorUrl>www.min-fo.com</authorUrl>
+	<version>1.0.0</version>
+	<description>COM_BAOXIAN_XML_DESCRIPTION</description>
+	<files folder="site">
+		<filename>index.html</filename>
+	</files>
+	<administration>
+		<menu img="class:install">COM_BAOXIAN_MENU</menu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>baoxian.php</filename>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>view</folder>
+		</files>
+		<languages folder="admin">
+			<language tag="zh-CN">language/zh-CN/zh-CN.com_baoxian.ini</language>
+			<language tag="zh-CN">language/zh-CN/zh-CN.com_baoxian.sys.ini</language>
+		</languages> 
+</administration>
+</extension>

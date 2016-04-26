@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="myfields">
+		<field name="id" type="text" default="0" label="ID" readonly="true" class="readonly" description="ID"/>
+		<field name="name" type="text" class="inputbox" size="30" label="姓名" description="姓名" required="true"/>
+		<field name="pos" type="text" class="inputbox" size="30" label="职称" description="职称" required="true"/>
+		<field name="direction" type="text" class="inputbox" size="30" label="主攻方向" description="主攻方向" required="true"/>
+		<field name="img" type="media" size="30" label="头像" description="头像" required="true"/>
+
+		<field name="hid" type="sql" default="0" label="所属医院" description="所属医院" required="true" query="select id as value, name as hid from #__hospital"/>
+
+		<field name="intro" type="textarea" cols="30" rows="10" class="inputbox" label="简介" description="简介" required="true"/>
+		
+	</fieldset>
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="myfields">
+		<field name="lc" type="textarea" class="inputbox" cols="35" rows="10" label="预约流程" description="预约流程"/>
+		<field name="lcnote" type="textarea" class="inputbox" cols="35" rows="10" label="流程备注" description="流程备注"/>
+	</fieldset>
+</form>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="myfields">
+		<field name="id" type="text" default="0" label="ID" readonly="true" class="readonly" description="ID"/>
+
+		<field name="name" type="text" class="inputbox" size="30" label="课程名称" description="课程名称" required="true"/>
+		<field name="price" type="text" class="inputbox" size="30" label="价格" description="价格" required="true"/>
+
+		<field name="banner" type="media" size="30" label="Banner图" description="Banner图" required="true"/>
+
+		<field name="intro" type="textarea" cols="30" rows="10" class="inputbox" label="简介" description="简介" required="true"/>
+		
+	</fieldset>
+</form>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="myfields">
+		<field name="id" type="text" default="0" label="ID" readonly="true" class="readonly" description="ID"/>
+		<field name="name" type="text" class="inputbox" size="30" label="标题" description="标题" required="true"/>
+		<field name="fname" type="text" class="inputbox" size="30" label="副标题" description="副标题" required="true"/>
+
+		<field name="simg" type="media" size="30" label="小图" description="小图" required="true"/>
+		<field name="bimg" type="media" size="30" label="大图" description="大图" required="true"/>
+
+		<field name="hid" type="list" label="面向医院" description="面向医院">
+			<option value="0">无</option>
+		</field>
+
+		<field name="pid" type="list" label="面向项目" description="面向项目">
+			<option value="0">无</option>
+		</field>
+
+	</fieldset>
+</form>
