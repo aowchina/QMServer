@@ -52,6 +52,7 @@ class UsersHelper
 				'index.php?option=com_users&view=groups',
 				$vName == 'groups'
 			);
+			/*
 			JSubMenuHelper::addEntry(
 				JText::_('COM_USERS_SUBMENU_LEVELS'),
 				'index.php?option=com_users&view=levels',
@@ -69,6 +70,7 @@ class UsersHelper
 				'index.php?option=com_categories&extension=com_users',
 				$vName == 'categories' || $extension == 'com_users'
 			);
+			*/
 		}
 	}
 

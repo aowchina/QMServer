@@ -29,6 +29,21 @@ class OrderViewOrder extends JViewLegacy{
 			JToolbarHelper::title(JText::_('订单：详情'), 'article.png');
 		}
 
+		JToolBarHelper::custom('orders.wc', 'apply.png', 'apply.png', '标记完成', false);
+		JToolBarHelper::divider();
+
+		JToolBarHelper::custom('orders.wk', 'archive.png', 'archive.png', '已收尾款', false);
+		JToolBarHelper::divider();
+
+		JToolBarHelper::custom('orders.twk_xx', 'purge.png', 'purge.png', '退线下尾款', false);
+		JToolBarHelper::divider();
+
+		JToolBarHelper::custom('orders.twk_xs', 'refresh.png', 'refresh.png', '退线上尾款', false);
+		JToolBarHelper::divider();
+
+		JToolBarHelper::custom('orders.tdj_xs', 'back.png', 'back.png', '退线上订金', false);
+		JToolBarHelper::divider();
+
 		if(empty($this->item->id)){
 			JToolbarHelper::cancel('order.cancel');
 		}else{

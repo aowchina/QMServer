@@ -12,6 +12,7 @@ class PointModelPoints extends JModelList{
 				'id', 'a.id',
 				'qd_point','a.qd_point',
 				'xf_point', 'a.xf_point',
+				'xh_point', 'a.xh_point',
 				'intime', 'a.intime'
 			);
 		}
@@ -22,7 +23,7 @@ class PointModelPoints extends JModelList{
 	protected function getListQuery(){
 		$db = $this->getDbo();
 		$query = $db->getQuery(true);
-		$query->select($this->getState('list.select', 'a.id,a.qd_point,a.xf_point,a.intime'));
+		$query->select($this->getState('list.select', 'a.id,a.qd_point,a.xf_point,a.intime,a.xh_point'));
 		$query->from($db->quoteName('#__point_rule')." AS a");
 
 		//排序操作

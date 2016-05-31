@@ -76,7 +76,6 @@ $menu->addChild(
 $menu->getParent();
 
 //用户
-/*
 if ($user->authorise('core.manage', 'com_users'))
 {
 	$menu->addChild(new JMenuNode(JText::_('MOD_MENU_COM_USERS_USERS'), '#'), true);
@@ -120,8 +119,9 @@ if ($user->authorise('core.manage', 'com_users'))
 			);
 			$menu->getParent();
 		}
+		*/
 	}
-
+	
 	/*
 	$menu->addSeparator();
 	$menu->addChild(
@@ -155,8 +155,9 @@ if ($user->authorise('core.manage', 'com_users'))
 	);
 	
 	$menu->getParent();
+	*/
 }
-*/
+
 //菜单
 /*
 if ($user->authorise('core.manage', 'com_menus'))

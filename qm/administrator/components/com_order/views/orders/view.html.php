@@ -21,13 +21,6 @@ class OrderViewOrders extends JViewLegacy{
 		$bar = JToolBar::getInstance('toolbar');
 
 		JToolbarHelper::title(JText::_('订单管理：订单'), 'article.png');
-		
-		if($canDo->get('core.edit')){
-			JToolbarHelper::editList('order.edit');
-
-			JToolBarHelper::custom('orders.wc', 'unblock.png', 'unblock.png', '完成', false);
-			JToolBarHelper::divider();
-		}
 
 		if($canDo->get('core.delete')){
 			JToolbarHelper::deleteList('', 'orders.delete', 'JTOOLBAR_DELETE');

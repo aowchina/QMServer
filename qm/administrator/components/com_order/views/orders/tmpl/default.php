@@ -22,11 +22,11 @@ $mp = new Utils;
 					<?php echo JText::_('订单号'); ?>
 				</th>
 
-				<th width="20%">
+				<th width="10%">
 					<?php echo JText::_('下单者ID'); ?>
 				</th>
 
-				<th width="20%">
+				<th width="10%">
 					<?php echo JText::_('下单者昵称'); ?>
 				</th>
 
@@ -55,7 +55,13 @@ $mp = new Utils;
 					<?php echo JHtml::_('grid.id', $i, $item->id); ?>
 				</td>
 				<td class="center"><?php echo $this->escape($item->id); ?></td>
-				<td class="center"><?php echo $this->escape($item->orderid); ?></td>
+				<td class="center">
+					<?php if($canDo->get('core.edit')){ ?>
+					<a href="<?php echo JRoute::_('index.php?option=com_order&task=order.edit&id='.(int) $item->id); ?>">
+					<?php echo $this->escape($item->orderid); ?></a>
+					<?php }else{ ?><?php echo $this->escape($item->orderid); ?></a>
+					<?php } ?>
+				</td>
 				<td class="center"><?php echo $this->escape($item->userid); ?></td>
 				<td class="center"><?php echo $mp->getStrFromByte($item->uname); ?></td>
 
@@ -63,11 +69,29 @@ $mp = new Utils;
 					<?php
 					if($item->status == 1){
 						echo JText::_("待支付");
-					}elseif($item->status == 2){
-						echo JText::_("已支付");
-					}elseif($item->status == 3){
+					}
+					elseif($item->status == 2){
+						echo JText::_("已付定金");
+					}
+					elseif($item->status == 3){
 						echo JText::_("待评价");
-					}else{
+					}
+					elseif($item->status == 5){
+						echo JText::_("已付全款");
+					}
+					elseif($item->status == 6){
+						echo JText::_("已上传图片");
+					}
+					elseif($item->status == 7){
+						echo JText::_("待退尾款");
+					}
+					elseif($item->status == 8){
+						echo JText::_("待退定金");
+					}
+					elseif($item->status == 9){
+						echo JText::_("已退款");
+					}
+					else{
 						echo JText::_("已结束");
 					}
 					?>

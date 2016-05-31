@@ -48,6 +48,20 @@ class OrderModelOrder extends JModelAdmin{
 			$hinfo = $db->loadObject();
 			$data->hospital = $hinfo->name;
 
+			$detail_img = $data->detail_img;
+			if($detail_img){
+				$img_list = json_decode($detail_img, true);
+
+				$str = '';
+				foreach($img_list as $img_item){
+					$str .= '<span style="display:inline-block;width:30%"><img src="http://'.
+						$_SERVER['HTTP_HOST'].'/qm/'.$img_item.'" width="100%"/></span>';
+				}
+				$data->detail_img = $str;
+			}
+			else{
+				$data->detail_img = '暂未上传';
+			}
 		}
 		return $data;
 	}

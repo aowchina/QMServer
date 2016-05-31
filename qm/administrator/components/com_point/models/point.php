@@ -35,6 +35,7 @@ class PointModelPoint extends JModelAdmin{
 		$id = trim($data['id']);
 		$qd_point = trim($data['qd_point']);
 		$xf_point = trim($data['xf_point']);
+		$xh_point = intval(trim($data['xh_point']));
 
 		if(empty($qd_point)){
 			$this->setError("：请填写签到积分!");
@@ -53,6 +54,11 @@ class PointModelPoint extends JModelAdmin{
 
 		if(!$this->isFloat($xf_point, 8, 2)){
 			$this->setError("：消费积分不符合要求!");
+			return false;
+		}
+
+		if($xh_point <= 0){
+			$this->setError("：1元需消耗积分设置不合理!");
 			return false;
 		}
 
@@ -76,6 +82,7 @@ class PointModelPoint extends JModelAdmin{
 
 		$save_array['qd_point'] = $qd_point;
 		$save_array['xf_point'] = $xf_point;
+		$save_array['xh_point'] = $xh_point;
 		$save_array['intime'] = time();
 
 		if($id != 0){

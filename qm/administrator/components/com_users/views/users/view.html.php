@@ -59,14 +59,6 @@ class UsersViewUsers extends JViewLegacy
 			JToolBarHelper::editList('user.edit');
 		}
 
-		if ($canDo->get('core.edit.state')) {
-			JToolBarHelper::divider();
-			JToolBarHelper::publish('users.activate', 'COM_USERS_TOOLBAR_ACTIVATE', true);
-			JToolBarHelper::unpublish('users.block', 'COM_USERS_TOOLBAR_BLOCK', true);
-			JToolBarHelper::custom('users.unblock', 'unblock.png', 'unblock_f2.png', 'COM_USERS_TOOLBAR_UNBLOCK', true);
-			JToolBarHelper::divider();
-		}
-
 		if ($canDo->get('core.delete')) {
 			JToolBarHelper::deleteList('', 'users.delete');
 			JToolBarHelper::divider();
@@ -77,6 +69,6 @@ class UsersViewUsers extends JViewLegacy
 			JToolBarHelper::divider();
 		}
 
-		JToolBarHelper::help('JHELP_USERS_USER_MANAGER');
+		//JToolBarHelper::help('JHELP_USERS_USER_MANAGER');
 	}
 }

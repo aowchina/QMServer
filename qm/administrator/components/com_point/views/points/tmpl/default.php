@@ -24,6 +24,10 @@ $canDo = PointHelper::getActions();
 				</th>
 
 				<th width="10%">
+					<?php echo JText::_('1元需消耗积分'); ?>
+				</th>
+
+				<th width="10%">
 					<?php echo JText::_('记录时间'); ?>
 				</th>
 			</tr>
@@ -52,6 +56,16 @@ $canDo = PointHelper::getActions();
 				</td>
 				<td class="center"><?php echo $this->escape($item->qd_point); ?></td>
 				<td class="center"><?php echo $this->escape($item->xf_point); ?></td>
+				<td class="center">
+					<?php
+					$xh_point = $this->escape($item->xh_point);
+					if($xh_point == 0){
+						echo '暂未设置';
+					}else{
+						echo $xh_point;
+					}
+					?>
+				</td>
 				<td class="center"><?php echo date("Y-m-d H:i", $this->escape($item->intime)); ?></td>
 				
 			</tr>

@@ -5,8 +5,8 @@
  * date 2015-04-27
  */
 class Utils{
-    //private $j_path = "/data/savedata/data_minfo/save_file/quanmei/";
-    private $j_path = "/Library/WebServer/Documents/projects/duiwai/1_quanmei/v1.0/server/qm/data/";
+    private $j_path = "/data/savedata/data_minfo/save_file/quanmei/";
+    //private $j_path = "/Library/WebServer/Documents/projects/duiwai/1_quanmei/v1.0/server/qm/data/";
 
     private $exp_rule_name = '/^[\x{4e00}-\x{9fa5}|a-zA-Z0-9]{4,10}$/u';    //规则名称的正则
     private $exp_event_name = '/^[\x{4e00}-\x{9fa5}|a-zA-Z0-9-_]{2,15}$/u';   //赛事名称的正则
@@ -51,7 +51,7 @@ class Utils{
                 $exp = "/^[\x{4e00}-\x{9fa5}|a-zA-Z0-9-\,\，\、\+\（\）\(\)]{2,30}$/u";    //特惠名称
                 break;
             case 10:
-                $exp = "/^[0-9]{2,5}+$/";
+                $exp = "/^[0-9]{1,5}+$/";
                 break;
         }
 

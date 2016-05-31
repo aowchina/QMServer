@@ -17,7 +17,7 @@ $menu->addChild(new JMenuNode(JText::_('JSITE'), null, 'disabled'));
 //
 // Users Submenu
 //
-/*
+
 if ($user->authorise('core.manage', 'com_users'))
 {
 	$menu->addChild(new JMenuNode(JText::_('MOD_MENU_COM_USERS'), null, 'disabled'));
