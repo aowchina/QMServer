@@ -247,6 +247,7 @@ function getXml($reqArray){
     return $str."</xml>";
 }
 
+//微信签名的秘钥，微信后台可以设置更新。
 function getSign($reqArray){
     $str = "";
     $key_list = array_keys($reqArray);
