@@ -102,6 +102,7 @@ $count_t = dbCount("qm_wenzhang", $con, "userid = $userid");
 $count_p = dbCount("qm_wenzhang_pl", $con, "userid = $userid or userid2 = $userid");
 $point = $count_t * 2 + $count_p;
 $r_info['star'] = getStar($point);
+$r_info['point'] = $point;
 
 //登录次数
 $count_login = 0;

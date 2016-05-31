@@ -76,7 +76,7 @@ foreach($list as &$id_item){
     $id_item['newval'] = getItem('newval', $info);
     $id_item['simg'] = $s_url.getItem('simg', $info);
 
-    $count = dbCount("qm_yuyue", $con, 'tid = '.$id.' and status = 2');
+    $count = dbCount("qm_yuyue", $con, 'tid = '.$id);
     $id_item['sellout'] = $count;
 
     //获取医院名

@@ -98,7 +98,7 @@ if(!checkDbCon($con)){
 }
 
 //检查用户是否存在
-$count = dbCount("qm_users_login", $con, "userid = $userid and deviceid = $deviceid and status = 1");
+$count = dbCount("qm_users_login", $con, "userid = $userid and deviceid = '$deviceid' and status = 1");
 if($count != 1){
     unLock($dev_path.'lock');
     unLock($user_path.'lock');

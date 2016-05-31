@@ -1,12 +1,11 @@
 <?php
 
-$j_path = "/data/savedata/data_minfo/save_file/quanmei/";   //Josn文件保存路径
-//$j_path = "/var/www/html/quanmei/";   //Josn文件保存路径
-$s_url = 'http://quanmei.min-fo.com/';                      //后台URL
-$s_path = "/data/pubout/minfo/qm/";                         //后台根目录
+$j_path = "/var/www/html/quanmei/";   //Josn文件保存路径
+$s_url = 'http://139.196.172.208/qm/';                      //后台URL
+$s_path = "/var/www/html/qm/";                         //后台根目录                        //后台根目录
 
 $appid_name_array = array("7000000004"=>"qm");
-$appid_key = array("7000000004" => "QUANMEIGUOWANGZHANGGTHREEHAOMINFO");
+$appid_key = array("7000000004" => "QUANMEISERVICEGUOWANGZHANGGTHREEHAOMINFO");
 
 $return_list = array();    //返回数组
 $reqlist = array();        //请求的参数数组
@@ -16,6 +15,8 @@ $dev_path = '';            //请求接口的设备的目录
 
 $userid = 0;               //请求接口的用户的userid
 $user_path = '';           //请求接口的用户的个人目录
+
+$lock_array = array();
 
 /*--------------------------------公共验证开始---------------------------------------*/
 
@@ -83,9 +84,20 @@ if(!mkdirs($dev_path)){
 if(!file_put_contents($dev_path.'lock', ' ', LOCK_EX)){
     toExit(9, $return_list);
 }
+$lock_array[] = $dev_path.'lock';
 
 
 /*--------------------------------公共验证结束---------------------------------------*/
+
+function forExit($lock_array, $con = ''){
+    for($i = 0; $i < count($lock_array); $i++){
+        unLock($lock_array[$i]);
+    }
+
+    if($con){
+        mysql_close($con);
+    }
+}
 
 /**
  * 解锁
@@ -145,7 +157,7 @@ function pswData($data_str){
         $sub_data_str = "";
         $sub_data_str = substr($data_str, $i * 60, 60);
         $command = "";
-        $command = "../Alg 1 '".$sub_data_str."' ".md5("QUANMEIGUOWANGZHANGGTHREEHAOMINFO");
+        $command = "../Alg 1 '".$sub_data_str."' ".md5("QUANMEISERVICEGUOWANGZHANGGTHREEHAOMINFO");
         $data_array[$i] = exec($command);
     }
 

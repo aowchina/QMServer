@@ -83,19 +83,26 @@ if($count != 1){
     toExit(16, $return_list);
 }
 
+//查询特惠信息
+$sql = "select newval,dj from qm_tehui where id = $tid";
+$tinfo = dbLoad(dbQuery($sql, $con), true);
+
 //生成订单
 $data['userid'] = $userid;
 $data['orderid'] = "quanmei".date("YmdHis", time());
 $data['status'] = 1;
 $data['tid'] = $tid;
 $data['intime'] = time();
+$data['create_time'] = time();
+$data['dj_money'] = $tinfo['dj'];
+$data['wk_money'] = $tinfo['newval'] - $tinfo['dj'];
 
 if(dbAdd($data, "qm_yuyue", $con)){
+    $r_data['orderid'] = $data['orderid'];
+
 	unLock($dev_path.'lock');
     unLock($user_path.'lock');
     closeDb($con);
-    $r_data['tel'] = $uinfo['tel'];
-    $r_data['orderid'] = $data['orderid'];
     $return_list['data'] = json_encode($r_data);
     toExit(0, $return_list);
 }

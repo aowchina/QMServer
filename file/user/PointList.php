@@ -74,12 +74,21 @@ if(count($list) > 0){
 }
 
 //计算总分
-$sql = "select sum(point) from qm_point_record where userid = ".$userid;
+$sql = "select sum(point) from qm_point_record where userid = ".$userid." and status = 1";
 $result = dbLoad(dbQuery($sql, $con), true);
-$point = $result['sum(point)'];
-if(!$point){
-    $point = '0.00';
+$get_point = $result['sum(point)'];
+if(!$get_point){
+    $get_point = '0.00';
 }
+
+$sql = "select sum(point) from qm_point_record where userid = ".$userid." and status = 2";
+$result = dbLoad(dbQuery($sql, $con), true);
+$out_point = $result['sum(point)'];
+if(!$get_point){
+    $get_point = '0.00';
+}
+
+$point = $get_point - $out_point;
 
 $r_data['point'] = $point;
 $r_data['list'] = $list;

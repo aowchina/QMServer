@@ -52,7 +52,7 @@ foreach($th_list as &$th_item){
     $th_item['newval'] = getItem('newval', $info);
     $th_item['simg'] = $s_url.getItem('simg', $info);
 
-    $count = dbCount("qm_yuyue", $con, 'tid = '.$id.' and status = 2');
+    $count = dbCount("qm_yuyue", $con, 'tid = '.$id);
     $th_item['sellout'] = $count;
 }
 
@@ -247,7 +247,7 @@ foreach($goods_list as &$goods_item){
     $goods_item['newval'] = getItem('newval', $info);
     $goods_item['simg'] = $s_url.getItem('simg', $info);
 
-    $count = dbCount("qm_yuyue", $con, 'tid = '.$id.' and status = 2');
+    $count = dbCount("qm_yuyue", $con, 'tid = '.$id);
     $goods_item['sellout'] = $count;
 
     //获取医院名
