@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="myfields">
+		<field name="id" type="text" default="0" label="ID" readonly="true" class="readonly" description="ID"/>
+		<field name="name" type="text" class="inputbox" size="30" label="姓名" description="姓名" required="true"/>
+
+		<field name="logo" type="media" size="30" label="头像" description="头像" required="true"/>
+
+		<field name="courseid" type="sql" default="0" label="任课" description="任课" required="true" query="select id as value, name as courseid from #__course"/>
+
+		<field name="intro" type="textarea" cols="30" rows="10" class="inputbox" label="简介" description="简介" required="true"/>
+		
+	</fieldset>
+</form>

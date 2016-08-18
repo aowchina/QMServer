@@ -1,0 +1,253 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\node\\node.exe',
+1 verbose cli   'D:\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mongoose',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mongoose@~3.8.20
+8 silly fetchNamedPackageData mongoose
+9 silly mapToRegistry name mongoose
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'mongoose',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'mongoose',
+12 silly mapToRegistry   name: 'mongoose',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+14 verbose request uri https://registry.npmjs.org/mongoose
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 17:06:03
+17 verbose request id 8f781b3dd8cf0103
+18 verbose etag "6HFCI0UJPQNZP4ZAS7YTRX2B1"
+19 http request GET https://registry.npmjs.org/mongoose
+20 http 304 https://registry.npmjs.org/mongoose
+21 verbose headers { date: 'Mon, 11 Jul 2016 09:08:48 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"6HFCI0UJPQNZP4ZAS7YTRX2B1"',
+21 verbose headers   age: '0',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1468228128.196519,VS0,VE618',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Mon, 11 Jul 2016 09:08:48 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"6HFCI0UJPQNZP4ZAS7YTRX2B1"',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-itm7426-ITM',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1468228128.196519,VS0,VE618',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/mongoose from cache
+24 verbose get saving mongoose to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\mongoose\.cache.json
+25 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule mongoose@3.8.40 checking installable status
+39 silly cache add args [ 'mongoose@~3.8.20', null ]
+40 verbose cache add spec mongoose@~3.8.20
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'mongoose@~3.8.20',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'mongoose',
+41 silly cache add   name: 'mongoose',
+41 silly cache add   rawSpec: '~3.8.20',
+41 silly cache add   spec: '>=3.8.20 <3.9.0',
+41 silly cache add   type: 'range' }
+42 silly addNamed mongoose@>=3.8.20 <3.9.0
+43 verbose addNamed ">=3.8.20 <3.9.0" is a valid semver range for mongoose
+44 silly addNameRange { name: 'mongoose', range: '>=3.8.20 <3.9.0', hasData: false }
+45 silly mapToRegistry name mongoose
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'mongoose',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'mongoose',
+48 silly mapToRegistry   name: 'mongoose',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+50 verbose addNameRange registry:https://registry.npmjs.org/mongoose not in flight; fetching
+51 verbose get https://registry.npmjs.org/mongoose not expired, no request
+52 silly addNameRange number 2 { name: 'mongoose', range: '>=3.8.20 <3.9.0', hasData: true }
+53 silly addNameRange versions [ 'mongoose',
+53 silly addNameRange   [ '0.0.1',
+53 silly addNameRange     '0.0.2',
+53 silly addNameRange     '0.0.3',
+53 silly addNameRange     '0.0.4',
+53 silly addNameRange     '0.0.5',
+53 silly addNameRange     '1.0.0',
+53 silly addNameRange     '1.0.1',
+53 silly addNameRange     '1.0.2',
+53 silly addNameRange     '0.0.6',
+53 silly addNameRange     '1.0.3',
+53 silly addNameRange     '1.0.4',
+53 silly addNameRange     '1.0.5',
+53 silly addNameRange     '1.0.6',
+53 silly addNameRange     '1.0.7',
+53 silly addNameRange     '1.0.8',
+53 silly addNameRange     '1.0.10',
+53 silly addNameRange     '1.0.11',
+53 silly addNameRange     '1.0.12',
+53 silly addNameRange     '1.0.13',
+53 silly addNameRange     '1.0.14',
+53 silly addNameRange     '1.0.15',
+53 silly addNameRange     '1.0.16',
+53 silly addNameRange     '1.1.0',
+53 silly addNameRange     '1.1.1',
+53 silly addNameRange     '1.1.2',
+53 silly addNameRange     '1.1.3',
+53 silly addNameRange     '1.1.4',
+53 silly addNameRange     '1.1.5',
+53 silly addNameRange     '1.1.6',
+53 silly addNameRange     '1.1.7',
+53 silly addNameRange     '1.1.8',
+53 silly addNameRange     '1.1.9',
+53 silly addNameRange     '1.1.10',
+53 silly addNameRange     '1.1.11',
+53 silly addNameRange     '1.1.12',
+53 silly addNameRange     '1.1.13',
+53 silly addNameRange     '1.1.14',
+53 silly addNameRange     '1.1.15',
+53 silly addNameRange     '1.1.16',
+53 silly addNameRange     '1.1.17',
+53 silly addNameRange     '1.1.18',
+53 silly addNameRange     '1.1.19',
+53 silly addNameRange     '1.1.20',
+53 silly addNameRange     '1.1.21',
+53 silly addNameRange     '1.1.22',
+53 silly addNameRange     '1.1.23',
+53 silly addNameRange     '1.1.24',
+53 silly addNameRange     '1.1.25',
+53 silly addNameRange     '1.2.0',
+53 silly addNameRange     '1.3.0',
+53 silly addNameRange     '1.3.1',
+53 silly addNameRange     '1.3.2',
+53 silly addNameRange     '1.3.3',
+53 silly addNameRange     '1.3.4',
+53 silly addNameRange     '1.3.5',
+53 silly addNameRange     '1.3.6',
+53 silly addNameRange     '1.3.7',
+53 silly addNameRange     '1.4.0',
+53 silly addNameRange     '1.5.0',
+53 silly addNameRange     '1.6.0',
+53 silly addNameRange     '1.7.2',
+53 silly addNameRange     '1.7.3',
+53 silly addNameRange     '1.7.4',
+53 silly addNameRange     '1.8.0',
+53 silly addNameRange     '1.8.1',
+53 silly addNameRange     '1.8.2',
+53 silly addNameRange     '1.8.3',
+53 silly addNameRange     '1.8.4',
+53 silly addNameRange     '2.0.0',
+53 silly addNameRange     '2.0.1',
+53 silly addNameRange     '2.0.2',
+53 silly addNameRange     '2.0.3',
+53 silly addNameRange     '2.0.4',
+53 silly addNameRange     '2.1.0',
+53 silly addNameRange     '2.1.1',
+53 silly addNameRange     '2.1.2',
+53 silly addNameRange     '2.1.3',
+53 silly addNameRange     '2.1.4',
+53 silly addNameRange     '2.2.0',
+53 silly addNameRange     '2.2.1',
+53 silly addNameRange     '2.2.2',
+53 silly addNameRange     '2.2.3',
+53 silly addNameRange     '2.2.4',
+53 silly addNameRange     '2.3.0',
+53 silly addNameRange     '2.3.1',
+53 silly addNameRange     '2.3.2',
+53 silly addNameRange     '2.3.3',
+53 silly addNameRange     '2.3.4',
+53 silly addNameRange     '2.3.5',
+53 silly addNameRange     '2.3.6',
+53 silly addNameRange     '2.3.7',
+53 silly addNameRange     '2.3.8',
+53 silly addNameRange     '2.3.9',
+53 silly addNameRange     '2.3.10',
+53 silly addNameRange     '2.3.11',
+53 silly addNameRange     '2.3.12',
+53 silly addNameRange     '2.3.13',
+53 silly addNameRange     '2.4.0',
+53 silly addNameRange     '2.4.1',
+53 silly addNameRange     '2.4.2',
+53 silly addNameRange     ... 227 more items ] ]
+54 silly addNamed mongoose@3.8.40
+55 verbose addNamed "3.8.40" is a plain semver version for mongoose
+56 silly mapToRegistry name mongoose
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'mongoose',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'mongoose',
+59 silly mapToRegistry   name: 'mongoose',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+61 verbose addRemoteTarball https://registry.npmjs.org/mongoose/-/mongoose-3.8.40.tgz not in flight; adding
+62 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-3.8.40.tgz',
+62 verbose addRemoteTarball   '032f5ba55582497559a87c1f3f4b3959c26406a7' ]
+63 info retry fetch attempt 1 at 17:08:48
+64 info attempt registry request try #1 at 17:08:48
+65 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-3.8.40.tgz
+66 http fetch 200 https://registry.npmjs.org/mongoose/-/mongoose-3.8.40.tgz
+67 info retry will retry, error on last attempt: Error: read ECONNRESET
+68 info retry will retry, error on last attempt: Error: read ECONNRESET
+69 silly fetchAndShaCheck shasum 032f5ba55582497559a87c1f3f4b3959c26406a7
+70 silly rollbackFailedOptional Starting
+71 silly rollbackFailedOptional Finishing
+72 silly runTopLevelLifecycles Starting
+73 silly runTopLevelLifecycles Finishing
+74 silly install printInstalled
+75 verbose stack Error: shasum check failed for C:\Users\ADMINI~1\AppData\Local\Temp\npm-4360-b8bbb10c\registry.npmjs.org\mongoose\-\mongoose-3.8.40.tgz
+75 verbose stack Expected: 032f5ba55582497559a87c1f3f4b3959c26406a7
+75 verbose stack Actual:   1f4d0a293b81cc08381a71b9168be4b54f408dc6
+75 verbose stack From:     https://registry.npmjs.org/mongoose/-/mongoose-3.8.40.tgz
+75 verbose stack     at D:\node\node_modules\npm\node_modules\sha\index.js:25:8
+75 verbose stack     at ReadStream.<anonymous> (D:\node\node_modules\npm\node_modules\sha\index.js:72:7)
+75 verbose stack     at emitNone (events.js:91:20)
+75 verbose stack     at ReadStream.emit (events.js:185:7)
+75 verbose stack     at endReadableNT (_stream_readable.js:973:12)
+75 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+75 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+76 verbose cwd D:\nodejsspace\QMNodeServer\websvc
+77 error Windows_NT 6.1.7600
+78 error argv "D:\\node\\node.exe" "D:\\node\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongoose" "--save"
+79 error node v6.3.0
+80 error npm  v3.10.3
+81 error shasum check failed for C:\Users\ADMINI~1\AppData\Local\Temp\npm-4360-b8bbb10c\registry.npmjs.org\mongoose\-\mongoose-3.8.40.tgz
+81 error Expected: 032f5ba55582497559a87c1f3f4b3959c26406a7
+81 error Actual:   1f4d0a293b81cc08381a71b9168be4b54f408dc6
+81 error From:     https://registry.npmjs.org/mongoose/-/mongoose-3.8.40.tgz
+82 error If you need help, you may report this error at:
+82 error     <https://github.com/npm/npm/issues>
+83 verbose exit [ 1, true ]

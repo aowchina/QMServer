@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="myfields">
+		<field name="id" type="text" default="0" label="ID" readonly="true" class="readonly" description="ID"/>
+		<field name="name" type="text" class="inputbox" size="20" label="小组名称" description="不能包含英文格式单、双引号，分号" required="true"/>
+		<field name="icon" type="media" label="icon" description="只能是数字、字母组成的图片名，只支持png与jpg类型" required="true"/>
+		<field name="intro" type="textarea" label="简介描述" description="不能包含英文格式单、双引号，分号" required="true"/>
+	</fieldset>
+</form>

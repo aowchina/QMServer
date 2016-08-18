@@ -1,0 +1,325 @@
+option java_package = "com.tongren.protobuf";
+option java_outer_classname = "ProtoBufMessage";
+
+//消息包
+message PbMessage
+{
+required int32 messageType=1;     //对应类MessageType
+required Head head=2;
+required int64 timestamp = 3;
+optional BasicMsgInfo msgInfo=4;
+optional bytes body=5;
+optional int64 seq=6;             //session会话的序列号
+optional MessageBasicType basicType=7; //消息的基本类型，用于新版本消息的区分
+}
+
+enum MessageType {
+//登录相关
+Connection=0x0000; 			//连接
+disConnection=0x0001; 		//断线
+Logout=0x0002;              //退出登录
+Ping=0x0003; 				//心跳包
+AckMsg=0x0004; 				//回执
+Success=0x0005; 			//成功。比如登录成功，断线成功
+Error=0x0006; 				//错误
+
+//好友普通消息
+FriendTextMsg= 0x0101; 		      //文本消息
+FriendImageMsg=0x0102; 		      //图片消息
+FriendVoiceMsg=0x0103; 		      //语音消息
+FriendFileMsg=0x0104;  		      //文件
+FriendCustomExpression=0x0105;    //自定义表情
+CancelFriendMessage=0x0110;       //撤销好友消息
+FailCancelFriendMessage=0x0111;   //撤销好友消息失败
+
+//群组普通消息
+GroupTextMsg= 0x0201; 		     //文本消息
+GroupImageMsg=0x0202; 		     //图片
+GroupVoiceMsg=0x0203; 		     //语音
+GroupFileMsg=0x0204; 		     //文件
+GroupCustomExpression=0x0205;    //自定义表情
+CancelGroupMessage=0x0210;       //撤销群消息
+FailCancelGroupMessage=0x0211;   //撤销群消息失败
+
+//好友系统消息
+FriendAddOp=0x0301; 		//加好友
+FriendAcceptOp=0x0302; 		//接收好友邀请
+FriendNotOp=0x0303; 		//你不是对方好友
+FriendBlockOp=0x0304; 		//你被对方拉黑
+
+//群组系统消息
+GroupJoinOp=0x0401;			//加入群
+GroupLeaveOp=0x0402;		//离开群
+GroupKickOp=0x0403;			//群主踢人
+GroupNickOp=0x0404; 		//群成员修改群昵称
+GroupDissolveOp=0x0405; 	//解散群
+GroupRenameOp=0x0406;		//更改群名称
+GroupChangeOwnerOp=0x0407; 	//群主转让
+GroupInviteOp=0x0408; 		//邀请加入
+GroupChangeAvatar=0x0409;   //修改群头像
+
+//群组语音通话
+GroupVoiceChatCreate=0x0601;        //创建
+GroupVoiceChatHangup=0x0602;        //挂断
+GroupVoiceChatInvite=0x0603;        //邀请人加入
+GroupVoiceChatAccept=0x0604;        //接受通话邀请
+GroupVoiceChatReject=0x0605;        //拒绝邀请
+GroupVoiceChatQueryState=0x0606;    //查询通话人员的状态
+GroupVoiceChatMemberState=0x0607;   //通话人员状态
+GroupVoiceChatMissed=0x0608;        //“语音聊天未接听”
+GroupVoiceChatOver=0x0609;          //“语音聊天已经结束”
+GroupVoiceChatBusy=0x0610;          //"对方繁忙，对方正在另一个语音聊天中"
+
+//2人语音通话
+FriendVoiceChatCreate=0x0701;       //发起邀请
+FriendVoiceChatAccept=0x0702;       //接受邀请
+FriendVoiceChatReject=0x0703;       //拒绝邀请
+FriendVoiceChatMissed=0x0704;       //超时未接听
+FriendVoiceChatOver=0x0705;         //结束通话
+FriendVoiceChatBusy=0x0706;         //“对方繁忙”
+FriendVoiceChatQueryState=0x0707;   //查询通话的状态
+FriendVoiceChatState=0x0708;        //通话状态
+
+//其他
+ModifyUserInfoOp= 0x0501;	       //修改自己的个人信息
+GetQRCodeOp= 0x0503;	           //用户请求
+MobileScanQRCodeOp= 0x0504;	       //手机用户扫码
+MobileAcceptQRLoginOp=0x0505;	   //手机用户同意登录
+}
+
+//消息的基本类型，用于新版本消息的区分
+enum MessageBasicType {
+FriendCommonMessage = 0;            //好友普通消息
+FriendSystemMessage=1;              //好友系统消息
+GroupCommonMessage=2;               //群组普通消息
+GroupSystemMessage=3;               //群组系统消息
+}
+
+//消息头
+message Head
+{
+required int32 version = 1;
+required string msgid = 2;
+}
+
+//基本信息
+message BasicMsgInfo
+{
+required int64 from = 1;
+required int64 to = 2;
+}
+
+//文本
+message Text
+{
+required string text = 1;
+optional GroupAtUserList atUsers=2;  //群组@列表，对应GroupAtUserList
+}
+
+//群组@的用户列表
+message GroupAtUserList
+{
+repeated int64 AtUserId=1;
+}
+
+//图片
+message Image
+{
+required string url=1;
+required int32 size=2;
+required int32 w=3;
+required int32 h=4;
+required int32 rw=5;
+required int32 rh=6;
+optional string thumb=7;
+}
+
+//语音
+message Voice
+{
+required string url=1;
+required int32 size=2;
+required int32 duration=3;
+}
+
+//文件
+message File
+{
+required string url=1;
+required int32 size=2;
+required string name=3;
+required string md5=4;
+}
+
+//撤销消息
+message CancelMessage
+{
+required string msgid =1;
+required string name = 2;  //撤销消息的用户昵称
+}
+
+//加好友的时候附带的提醒
+message FriendAdd {
+optional string extInfo = 1;
+}
+
+//二维码
+enum GroupJoinType {
+QRCode=0x0001;
+}
+
+//主动加入群组
+message GroupJoin
+{
+required string joiner = 1;
+required int32 groupJoinType = 2; //对应类GroupJoinType
+}
+
+//群邀请
+message GroupInvite
+{
+repeated string invitee = 1;
+repeated string inviteeNames = 2;
+required string name = 3;
+}
+
+//踢人
+message GroupKick
+{
+repeated string kick = 1;
+repeated string receive = 2;
+repeated string kickNames = 3;
+required string name = 4;
+}
+
+//修改群名称
+message GroupRename
+{
+required string newName = 1;
+required string name = 2;
+}
+
+//群主转让
+message GroupChangeOwner
+{
+required string newOwer = 1;
+required string ownerName = 2;
+required string oldOwnerName = 3;
+}
+
+//修改群昵称
+message GroupNick
+{
+required string newNick = 1;
+required string oldNick = 2;
+}
+
+//解散群
+message GroupDissolve
+{
+repeated string receive = 1;
+}
+
+//群头像
+message GroupAvatar
+{
+required string AvatarUrl=1;
+}
+
+//群语音聊天：body
+message GroupVoiceChat
+{
+required string sessionId = 1;                          //uuid,记录通话id
+optional GroupVoiceChatInviteToList inviteToList = 2;
+optional GroupVoiceChatMemberStateList memberStateList = 3;
+}
+
+//群语音聊天：邀请加入的群成员列表
+message GroupVoiceChatInviteToList
+{
+repeated int64 inviteToUid=1;
+}
+
+//群语音聊天：正在语音通话中的群成员列表
+message GroupVoiceChatMemberStateList
+{
+repeated int64 memberUid = 1;
+repeated int32 groupVoiceChatMemberState=2; //群成员语音通话状态，对应类GroupVoiceChatMemberStateEnum
+}
+
+//群语音聊天：语音通话中的群成员状态
+enum GroupVoiceChatMemberStateEnum
+{
+isConnected=1;        //已连上语音通信
+isConnecting=2;       //已被邀请，正在连接中
+}
+
+//好友语音聊天：body
+message FriendVoiceChat
+{
+required string sessionId = 1;                          //uuid,记录通话id
+optional int32 friendVoiceChatState=2;                  //好友通话状态，对应枚举FriendVoiceChatStateEnum，只用于FriendVoiceChatState协议中
+}
+
+enum FriendVoiceChatStateEnum
+{
+on=1;        //还存在
+off=2;       //不存在
+}
+
+//连接
+message Connect {
+required string token = 1;
+required int64 uid = 2;
+}
+
+//断线
+message disConnect {
+required int64 uid = 1;
+}
+
+//回执
+message Ack{
+required int32 messageType=1;    //对类型是type的消息进行回执：类MessageType
+optional bytes body=2;           //应答消息如果需要返回内容，包含在这个里面
+}
+
+//获取一个临时的QRCode
+message GetQRCode{
+required string code=1;
+}
+
+//用户扫描确认以后发给用户
+message MobileAcceptQRLogin{
+required string uid=1;
+required string token=2;
+required int64 expiredTime=3;	//超时的秒
+}
+
+//手机扫描后发给用户
+message MobileScanQRCode{
+required int64 uid= 1;
+required string uname= 2;
+required string head= 3;
+}
+
+//退出登录
+message LogoutOp {
+required int64 uid = 1;
+required int32 device = 2;      //device=1代表来自手机端；device=2代表来自web端。
+}
+
+//错误信息
+message ErrorInfo{
+required int32 errorType=1;     //错误类型：类ErrorType
+}
+
+//错误类型
+enum ErrorType{
+UserAuthFail=0x0001;             //用户认证失败
+ReceiverNotSenderFriend=0x0002;  //消息发给了非好友，接收者非发送者的好友
+SenderNotGroupMember=0x0003;     //发送者不是群成员
+KickUserOffline=0x0004;          //把用户踢下线（场景：在另一台手机登录时，把第一台手机用户踢掉）
+UserNotConnection=0x0005;        //用户没有连接
+NonExistentVoiceChat=0x0006;     //不存在的语音通话
+}

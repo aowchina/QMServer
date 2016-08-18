@@ -1,0 +1,43 @@
+
+服务器依赖的第三方软件：
+
+1，消息队列和缓存：
+
+REDIS
+
+2，持久化存储
+
+MONGODB
+
+3，服务器框架
+
+NODE.JS
+
+第三方node module：
+
+	node-gyp
+
+	async
+
+	machina
+
+	express
+	express-session
+	ejs
+	body-parser
+	cookie-parser
+	connect-busboy
+	debug
+
+	passport
+	passport-local
+
+	flags
+
+	log4js
+	morgan
+
+	mongodb
+	redis
+
+	protobufjs

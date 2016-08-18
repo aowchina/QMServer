@@ -1,0 +1,61 @@
+create time: 2015-11-20
+author: ewonder chow
+note:  REST API
+
+format: /api/*
+
+注：返回Result统一格式
+错误：
+{
+    code: xx,       // 错误码
+    message: xx     // 错误描述
+}
+成功：
+{
+    code: 0,        // 0-成功
+    data: xx        // 返回数据
+}
+
+
+1.普通登录(游客)
+URL : /user/login
+Method : POST
+Params :
+    channel="发行渠道ID"                         // 具体每个渠道ID参考相关接口文档
+    utfOffSet="UTC时区"
+	deviceType="设备类型"                        // iOS, Android, Windows ...
+	deviceId="设备硬件ID"
+	deviceModel="设备型号"                       // iphone4s/SAMSUNG NOTE4
+Result :
+	{
+		code : 0,
+		data : {
+	        userId : 用户ID,
+            nickname: 昵称,
+            avatarType: 头像类型,                // 1-系统头像, 2-自定义头像
+            avatarId: 头像ID,                    // 头像ID或头像URL
+            sex: 性别,
+            loginStreakDay: 连续登陆天数         // 仅当天第一次登陆时返回
+		}
+	}
+Set-Cookies :
+	uid="用户ID"
+	skey="用户session key"
+
+2.获取用户基本数据
+URL : /user/data
+Method : POST
+Params :
+Result :
+	{
+		code : 0,
+		data : {
+		}
+	}
+Set-Cookies :
+	uid="用户ID"
+	skey="用户session key"
+
+
+
+

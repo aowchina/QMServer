@@ -1,0 +1,11 @@
+/QMNodeServer/conf/
+/QMNodeServer/node_modules/
+
+.DS_Store
+
+/qm/configuration.php
+Alg
+functions_mdb.php
+functions_mut.php
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>com_group</name>
+	<author>WangRui</author>
+	<creationDate>2015-09-29</creationDate>
+	<copyright>(C) 2015 Min-Fo.</copyright>
+	<license></license>
+	<authorEmail>183107471@qq.com</authorEmail>
+	<authorUrl>www.min-fo.com</authorUrl>
+	<version>1.0.0</version>
+	<description>COM_GROUP_XML_DESCRIPTION</description>
+
+	<files folder="site">
+		<filename>index.html</filename>
+	</files>
+	<administration>
+		<menu img="class:groups">COM_GROUP_MENU</menu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>group.php</filename>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>view</folder>
+		</files>
+		<languages folder="admin">
+			<language tag="zh-CN">language/zh-CN/zh-CN.com_group.ini</language>
+			<language tag="zh-CN">language/zh-CN/zh-CN.com_group.sys.ini</language>
+		</languages> 
+</administration>
+</extension>

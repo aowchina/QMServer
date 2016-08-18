@@ -1,0 +1,406 @@
+[2016-07-09 18:04:12.776] INFO logger inited
+[2016-07-09 18:04:12.782] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-09 18:04:12.782] INFO ==================================================================
+[2016-07-09 18:04:12.783] INFO memory, rss: 30 MB
+[2016-07-09 18:04:12.783] INFO memory, heap total: 18 MB
+[2016-07-09 18:04:12.783] INFO memory, heap used: 10 MB
+[2016-07-09 18:04:12.783] INFO ==================================================================
+[2016-07-09 18:04:12.784] DEBUG start sub channel :  QM
+[2016-07-09 18:04:12.785] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-09 18:04:12.795] INFO QM is ready.
+[2016-07-09 18:07:05.929] DEBUG data : we will test channel message!!!
+[2016-07-09 18:41:38.209] INFO logger inited
+[2016-07-09 18:41:38.214] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-09 18:41:38.214] INFO ==================================================================
+[2016-07-09 18:41:38.215] INFO memory, rss: 30 MB
+[2016-07-09 18:41:38.216] INFO memory, heap total: 18 MB
+[2016-07-09 18:41:38.216] INFO memory, heap used: 10 MB
+[2016-07-09 18:41:38.216] INFO ==================================================================
+[2016-07-09 18:41:38.217] DEBUG start sub channel :  QM
+[2016-07-09 18:41:38.218] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-09 18:41:38.227] INFO QM is ready.
+[2016-07-09 18:42:55.019] DEBUG mysql pool created.
+[2016-07-09 18:43:15.777] INFO logger inited
+[2016-07-09 18:43:15.781] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-09 18:43:15.782] INFO ==================================================================
+[2016-07-09 18:43:15.782] INFO memory, rss: 30 MB
+[2016-07-09 18:43:15.782] INFO memory, heap total: 18 MB
+[2016-07-09 18:43:15.783] INFO memory, heap used: 10 MB
+[2016-07-09 18:43:15.783] INFO ==================================================================
+[2016-07-09 18:43:15.784] DEBUG start sub channel :  QM
+[2016-07-09 18:43:15.784] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-09 18:43:15.793] INFO QM is ready.
+[2016-07-09 18:43:25.363] DEBUG mysql pool created.
+[2016-07-09 18:44:20.037] INFO logger inited
+[2016-07-09 18:44:20.041] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-09 18:44:20.042] INFO ==================================================================
+[2016-07-09 18:44:20.043] INFO memory, rss: 30 MB
+[2016-07-09 18:44:20.043] INFO memory, heap total: 18 MB
+[2016-07-09 18:44:20.043] INFO memory, heap used: 10 MB
+[2016-07-09 18:44:20.043] INFO ==================================================================
+[2016-07-09 18:44:20.044] DEBUG start sub channel :  QM
+[2016-07-09 18:44:20.045] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-09 18:44:20.054] INFO QM is ready.
+[2016-07-09 18:44:25.195] DEBUG mysql pool created.
+[2016-07-09 18:45:00.116] INFO logger inited
+[2016-07-09 18:45:00.120] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-09 18:45:00.121] INFO ==================================================================
+[2016-07-09 18:45:00.121] INFO memory, rss: 30 MB
+[2016-07-09 18:45:00.121] INFO memory, heap total: 18 MB
+[2016-07-09 18:45:00.122] INFO memory, heap used: 10 MB
+[2016-07-09 18:45:00.122] INFO ==================================================================
+[2016-07-09 18:45:00.123] DEBUG start sub channel :  QM
+[2016-07-09 18:45:00.123] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-09 18:45:00.133] INFO QM is ready.
+[2016-07-09 18:45:08.886] DEBUG mysql pool created.
+[2016-07-10 16:28:17.580] INFO logger inited
+[2016-07-10 16:28:17.587] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"../log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-10 16:28:17.588] INFO ==================================================================
+[2016-07-10 16:28:17.589] INFO memory, rss: 31 MB
+[2016-07-10 16:28:17.590] INFO memory, heap total: 18 MB
+[2016-07-10 16:28:17.590] INFO memory, heap used: 11 MB
+[2016-07-10 16:28:17.591] INFO ==================================================================
+[2016-07-10 16:28:17.592] DEBUG start sub channel :  QM
+[2016-07-10 16:28:17.594] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-10 16:28:17.611] INFO QM is ready.
+[2016-07-10 16:30:27.747] INFO logger inited
+[2016-07-10 16:30:27.753] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"../log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-10 16:30:27.755] INFO ==================================================================
+[2016-07-10 16:30:27.756] INFO memory, rss: 31 MB
+[2016-07-10 16:30:27.757] INFO memory, heap total: 18 MB
+[2016-07-10 16:30:27.757] INFO memory, heap used: 11 MB
+[2016-07-10 16:30:27.757] INFO ==================================================================
+[2016-07-10 16:30:27.759] DEBUG start sub channel :  QM
+[2016-07-10 16:30:27.760] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-10 16:30:27.777] INFO QM is ready.
+[2016-07-10 16:37:08.687] INFO logger inited
+[2016-07-10 16:37:08.694] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"../log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-10 16:37:08.695] INFO ==================================================================
+[2016-07-10 16:37:08.696] INFO memory, rss: 32 MB
+[2016-07-10 16:37:08.697] INFO memory, heap total: 18 MB
+[2016-07-10 16:37:08.697] INFO memory, heap used: 11 MB
+[2016-07-10 16:37:08.699] INFO ==================================================================
+[2016-07-10 16:37:08.701] DEBUG start sub channel :  QM
+[2016-07-10 16:37:08.702] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-10 16:37:08.720] INFO QM is ready.
+[2016-07-10 16:37:20.472] DEBUG mysql pool created.
+[2016-07-10 16:44:52.675] INFO logger inited
+[2016-07-10 16:44:52.683] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"../log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-10 16:44:52.685] INFO ==================================================================
+[2016-07-10 16:44:52.687] INFO memory, rss: 32 MB
+[2016-07-10 16:44:52.687] INFO memory, heap total: 18 MB
+[2016-07-10 16:44:52.688] INFO memory, heap used: 11 MB
+[2016-07-10 16:44:52.688] INFO ==================================================================
+[2016-07-10 16:44:52.690] DEBUG start sub channel :  QM
+[2016-07-10 16:44:52.692] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-10 16:44:52.710] INFO QM is ready.
+[2016-07-10 16:45:04.873] DEBUG mysql pool created.
+[2016-07-10 16:45:34.662] INFO logger inited
+[2016-07-10 16:45:34.669] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"../log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-10 16:45:34.670] INFO ==================================================================
+[2016-07-10 16:45:34.672] INFO memory, rss: 32 MB
+[2016-07-10 16:45:34.672] INFO memory, heap total: 18 MB
+[2016-07-10 16:45:34.672] INFO memory, heap used: 11 MB
+[2016-07-10 16:45:34.673] INFO ==================================================================
+[2016-07-10 16:45:34.674] DEBUG start sub channel :  QM
+[2016-07-10 16:45:34.676] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-10 16:45:34.692] INFO QM is ready.
+[2016-07-10 16:45:46.572] DEBUG mysql pool created.
+[2016-07-10 16:50:17.091] INFO logger inited
+[2016-07-10 16:50:17.098] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"../log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-10 16:50:17.099] INFO ==================================================================
+[2016-07-10 16:50:17.101] INFO memory, rss: 32 MB
+[2016-07-10 16:50:17.101] INFO memory, heap total: 18 MB
+[2016-07-10 16:50:17.102] INFO memory, heap used: 11 MB
+[2016-07-10 16:50:17.102] INFO ==================================================================
+[2016-07-10 16:50:17.104] DEBUG start sub channel :  QM
+[2016-07-10 16:50:17.105] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-10 16:50:17.121] INFO QM is ready.
+[2016-07-10 16:50:22.117] DEBUG mysql pool created.
+[2016-07-10 16:50:52.059] INFO logger inited
+[2016-07-10 16:50:52.066] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"../log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-10 16:50:52.067] INFO ==================================================================
+[2016-07-10 16:50:52.068] INFO memory, rss: 32 MB
+[2016-07-10 16:50:52.069] INFO memory, heap total: 18 MB
+[2016-07-10 16:50:52.069] INFO memory, heap used: 11 MB
+[2016-07-10 16:50:52.070] INFO ==================================================================
+[2016-07-10 16:50:52.072] DEBUG start sub channel :  QM
+[2016-07-10 16:50:52.073] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-10 16:50:52.090] INFO QM is ready.
+[2016-07-10 16:50:54.310] DEBUG mysql pool created.
+[2016-07-10 16:56:01.688] INFO logger inited
+[2016-07-10 16:56:01.695] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"../log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-10 16:56:01.696] INFO ==================================================================
+[2016-07-10 16:56:01.697] INFO memory, rss: 32 MB
+[2016-07-10 16:56:01.698] INFO memory, heap total: 18 MB
+[2016-07-10 16:56:01.698] INFO memory, heap used: 11 MB
+[2016-07-10 16:56:01.698] INFO ==================================================================
+[2016-07-10 16:56:01.700] DEBUG start sub channel :  QM
+[2016-07-10 16:56:01.702] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-10 16:56:01.717] INFO QM is ready.
+[2016-07-10 16:56:07.627] DEBUG mysql pool created.
+[2016-07-11 12:16:35.178] INFO logger inited
+[2016-07-11 12:16:35.193] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"../log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-11 12:16:35.193] INFO ==================================================================
+[2016-07-11 12:16:35.193] INFO memory, rss: 31 MB
+[2016-07-11 12:16:35.193] INFO memory, heap total: 18 MB
+[2016-07-11 12:16:35.193] INFO memory, heap used: 11 MB
+[2016-07-11 12:16:35.193] INFO ==================================================================
+[2016-07-11 12:16:35.193] DEBUG start sub channel :  QM
+[2016-07-11 12:16:35.193] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-11 12:16:35.209] INFO QM is ready.
+[2016-07-11 12:20:18.202] DEBUG mysql pool created.
+[2016-07-11 12:21:09.772] INFO logger inited
+[2016-07-11 12:21:09.772] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"../log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-11 12:21:09.772] INFO ==================================================================
+[2016-07-11 12:21:09.772] INFO memory, rss: 32 MB
+[2016-07-11 12:21:09.772] INFO memory, heap total: 18 MB
+[2016-07-11 12:21:09.772] INFO memory, heap used: 11 MB
+[2016-07-11 12:21:09.787] INFO ==================================================================
+[2016-07-11 12:21:09.787] DEBUG start sub channel :  QM
+[2016-07-11 12:21:09.787] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-11 12:21:09.803] INFO QM is ready.
+[2016-07-11 12:21:18.541] DEBUG mysql pool created.
+[2016-07-11 12:43:27.733] INFO logger inited
+[2016-07-11 12:43:27.733] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"../log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-11 12:43:27.733] INFO ==================================================================
+[2016-07-11 12:43:27.733] INFO memory, rss: 31 MB
+[2016-07-11 12:43:27.733] INFO memory, heap total: 18 MB
+[2016-07-11 12:43:27.733] INFO memory, heap used: 11 MB
+[2016-07-11 12:43:27.748] INFO ==================================================================
+[2016-07-11 12:43:27.748] DEBUG start sub channel :  QM
+[2016-07-11 12:43:27.748] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-11 12:43:27.764] INFO QM is ready.
+[2016-07-11 13:35:23.757] INFO logger inited
+[2016-07-11 13:35:23.764] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-11 13:35:23.765] INFO ==================================================================
+[2016-07-11 13:35:23.767] INFO memory, rss: 31 MB
+[2016-07-11 13:35:23.768] INFO memory, heap total: 18 MB
+[2016-07-11 13:35:23.768] INFO memory, heap used: 11 MB
+[2016-07-11 13:35:23.769] INFO ==================================================================
+[2016-07-11 13:35:23.770] DEBUG start sub channel :  QM
+[2016-07-11 13:35:23.796] ERROR psub.conf parse error: { Error: ENOENT: no such file or directory, open 'D:\我的文档\桌面\conf\psub.conf'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.readFileSync (fs.js:508:33)
+    at Redis.self.createConnection (D:\我的文档\桌面\QMNodeServer\common\psub.js:17:34)
+    at Sub.self.init (D:\我的文档\桌面\QMNodeServer\common\psub.js:50:12)
+    at ASTServer.listen (D:\我的文档\桌面\QMNodeServer\astserver\astserver.js:31:14)
+    at initialize (D:\我的文档\桌面\QMNodeServer\astserver\main.js:29:12)
+    at D:\我的文档\桌面\QMNodeServer\astserver\main.js:64:13
+    at D:\我的文档\桌面\QMNodeServer\node_modules\async\dist\async.js:5285:13
+    at replenish (D:\我的文档\桌面\QMNodeServer\node_modules\async\dist\async.js:871:21)
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\我的文档\\桌面\\conf\\psub.conf' }
+[2016-07-11 13:35:23.797] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-11 13:35:23.813] INFO QM is ready.
+[2016-07-11 13:37:22.540] INFO logger inited
+[2016-07-11 13:37:22.547] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-11 13:37:22.549] INFO ==================================================================
+[2016-07-11 13:37:22.550] INFO memory, rss: 31 MB
+[2016-07-11 13:37:22.551] INFO memory, heap total: 18 MB
+[2016-07-11 13:37:22.551] INFO memory, heap used: 11 MB
+[2016-07-11 13:37:22.551] INFO ==================================================================
+[2016-07-11 13:37:22.553] DEBUG start sub channel :  QM
+[2016-07-11 13:37:22.554] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-11 13:37:22.569] INFO QM is ready.
+[2016-07-15 13:37:00.032] INFO logger inited
+[2016-07-15 13:37:00.049] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 13:37:00.050] INFO ==================================================================
+[2016-07-15 13:37:00.050] INFO memory, rss: 31 MB
+[2016-07-15 13:37:00.050] INFO memory, heap total: 18 MB
+[2016-07-15 13:37:00.050] INFO memory, heap used: 11 MB
+[2016-07-15 13:37:00.050] INFO ==================================================================
+[2016-07-15 13:37:00.050] DEBUG start sub channel :  addOrder
+[2016-07-15 13:37:00.050] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 13:37:00.081] ERROR redis client on error: { ReplyError: Ready check failed: ERR operation not permitted
+    at parseError (D:\nodejsspace\QMNodeServer\node_modules\redis-parser\lib\parser.js:161:12)
+    at parseType (D:\nodejsspace\QMNodeServer\node_modules\redis-parser\lib\parser.js:222:14) command: 'INFO', code: 'ERR' }
+[2016-07-15 13:38:37.357] INFO logger inited
+[2016-07-15 13:38:37.373] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 13:38:37.373] INFO ==================================================================
+[2016-07-15 13:38:37.373] INFO memory, rss: 31 MB
+[2016-07-15 13:38:37.373] INFO memory, heap total: 18 MB
+[2016-07-15 13:38:37.373] INFO memory, heap used: 11 MB
+[2016-07-15 13:38:37.373] INFO ==================================================================
+[2016-07-15 13:38:37.373] DEBUG start sub channel :  addOrder
+[2016-07-15 13:38:37.373] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 13:38:37.388] INFO addOrder is ready.
+[2016-07-15 13:40:30.098] INFO logger inited
+[2016-07-15 13:40:30.098] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 13:40:30.098] INFO ==================================================================
+[2016-07-15 13:40:30.098] INFO memory, rss: 31 MB
+[2016-07-15 13:40:30.098] INFO memory, heap total: 18 MB
+[2016-07-15 13:40:30.098] INFO memory, heap used: 11 MB
+[2016-07-15 13:40:30.098] INFO ==================================================================
+[2016-07-15 13:40:30.113] DEBUG start sub channel :  addOrder
+[2016-07-15 13:40:30.113] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 13:40:30.131] INFO addOrder is ready.
+[2016-07-15 13:43:55.170] ERROR redis client on error: TypeError: async.serial is not a function
+    at Object.computeProfit (D:\nodejsspace\QMNodeServer\myProjectTest\models\Profit.js:8:11)
+    at D:\nodejsspace\QMNodeServer\myProjectTest\computeOrderProfit.js:35:16
+    at RedisClient.<anonymous> (D:\nodejsspace\QMNodeServer\common\psub.js:68:17)
+    at emitTwo (events.js:106:13)
+    at RedisClient.emit (events.js:191:7)
+    at return_pub_sub (D:\nodejsspace\QMNodeServer\node_modules\redis\index.js:774:18)
+    at RedisClient.return_reply (D:\nodejsspace\QMNodeServer\node_modules\redis\index.js:825:9)
+    at JavascriptRedisParser.Parser.returnReply (D:\nodejsspace\QMNodeServer\node_modules\redis\index.js:188:18)
+    at JavascriptRedisParser.execute (D:\nodejsspace\QMNodeServer\node_modules\redis-parser\lib\parser.js:413:12)
+    at Socket.<anonymous> (D:\nodejsspace\QMNodeServer\node_modules\redis\index.js:267:27)
+[2016-07-15 13:46:05.386] INFO logger inited
+[2016-07-15 13:46:05.403] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 13:46:05.403] INFO ==================================================================
+[2016-07-15 13:46:05.403] INFO memory, rss: 31 MB
+[2016-07-15 13:46:05.403] INFO memory, heap total: 18 MB
+[2016-07-15 13:46:05.403] INFO memory, heap used: 11 MB
+[2016-07-15 13:46:05.403] INFO ==================================================================
+[2016-07-15 13:46:05.403] DEBUG start sub channel :  addOrder
+[2016-07-15 13:46:05.403] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 13:46:05.424] INFO addOrder is ready.
+[2016-07-15 13:53:39.545] INFO logger inited
+[2016-07-15 13:53:39.549] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 13:53:39.550] INFO ==================================================================
+[2016-07-15 13:53:39.551] INFO memory, rss: 31 MB
+[2016-07-15 13:53:39.552] INFO memory, heap total: 18 MB
+[2016-07-15 13:53:39.552] INFO memory, heap used: 11 MB
+[2016-07-15 13:53:39.552] INFO ==================================================================
+[2016-07-15 13:53:39.554] DEBUG start sub channel :  addOrder
+[2016-07-15 13:53:39.555] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 13:53:39.569] INFO addOrder is ready.
+[2016-07-15 13:55:49.749] INFO logger inited
+[2016-07-15 13:55:49.753] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 13:55:49.754] INFO ==================================================================
+[2016-07-15 13:55:49.756] INFO memory, rss: 31 MB
+[2016-07-15 13:55:49.756] INFO memory, heap total: 18 MB
+[2016-07-15 13:55:49.757] INFO memory, heap used: 11 MB
+[2016-07-15 13:55:49.757] INFO ==================================================================
+[2016-07-15 13:55:49.759] DEBUG start sub channel :  addOrder
+[2016-07-15 13:55:49.760] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 13:55:49.774] INFO addOrder is ready.
+[2016-07-15 13:58:36.731] INFO logger inited
+[2016-07-15 13:58:36.735] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 13:58:36.736] INFO ==================================================================
+[2016-07-15 13:58:36.738] INFO memory, rss: 31 MB
+[2016-07-15 13:58:36.738] INFO memory, heap total: 18 MB
+[2016-07-15 13:58:36.738] INFO memory, heap used: 11 MB
+[2016-07-15 13:58:36.739] INFO ==================================================================
+[2016-07-15 13:58:36.740] DEBUG start sub channel :  addOrder
+[2016-07-15 13:58:36.741] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 13:58:36.756] INFO addOrder is ready.
+[2016-07-15 14:00:34.391] INFO logger inited
+[2016-07-15 14:00:34.395] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 14:00:34.396] INFO ==================================================================
+[2016-07-15 14:00:34.398] INFO memory, rss: 31 MB
+[2016-07-15 14:00:34.398] INFO memory, heap total: 18 MB
+[2016-07-15 14:00:34.398] INFO memory, heap used: 11 MB
+[2016-07-15 14:00:34.399] INFO ==================================================================
+[2016-07-15 14:00:34.400] DEBUG start sub channel :  addOrder
+[2016-07-15 14:00:34.401] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 14:00:34.416] INFO addOrder is ready.
+[2016-07-15 14:02:58.997] INFO logger inited
+[2016-07-15 14:02:59.001] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 14:02:59.002] INFO ==================================================================
+[2016-07-15 14:02:59.004] INFO memory, rss: 31 MB
+[2016-07-15 14:02:59.004] INFO memory, heap total: 18 MB
+[2016-07-15 14:02:59.005] INFO memory, heap used: 11 MB
+[2016-07-15 14:02:59.005] INFO ==================================================================
+[2016-07-15 14:02:59.007] DEBUG start sub channel :  addOrder
+[2016-07-15 14:02:59.008] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 14:02:59.022] INFO addOrder is ready.
+[2016-07-15 14:05:09.591] INFO logger inited
+[2016-07-15 14:05:09.596] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 14:05:09.596] INFO ==================================================================
+[2016-07-15 14:05:09.598] INFO memory, rss: 31 MB
+[2016-07-15 14:05:09.599] INFO memory, heap total: 18 MB
+[2016-07-15 14:05:09.599] INFO memory, heap used: 11 MB
+[2016-07-15 14:05:09.599] INFO ==================================================================
+[2016-07-15 14:05:09.601] DEBUG start sub channel :  addOrder
+[2016-07-15 14:05:09.602] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 14:05:09.618] INFO addOrder is ready.
+[2016-07-15 14:56:50.169] INFO logger inited
+[2016-07-15 14:56:50.174] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 14:56:50.175] INFO ==================================================================
+[2016-07-15 14:56:50.176] INFO memory, rss: 31 MB
+[2016-07-15 14:56:50.177] INFO memory, heap total: 18 MB
+[2016-07-15 14:56:50.177] INFO memory, heap used: 11 MB
+[2016-07-15 14:56:50.178] INFO ==================================================================
+[2016-07-15 14:56:50.180] DEBUG start sub channel :  addOrder
+[2016-07-15 14:56:50.181] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 14:56:50.195] INFO addOrder is ready.
+[2016-07-15 15:00:02.044] INFO logger inited
+[2016-07-15 15:00:02.048] DEBUG serverConfig {"id":0,"path":"./","serv_name":"computeProfitServer","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-15 15:00:02.049] INFO ==================================================================
+[2016-07-15 15:00:02.051] INFO memory, rss: 31 MB
+[2016-07-15 15:00:02.051] INFO memory, heap total: 18 MB
+[2016-07-15 15:00:02.052] INFO memory, heap used: 11 MB
+[2016-07-15 15:00:02.052] INFO ==================================================================
+[2016-07-15 15:00:02.054] DEBUG start sub channel :  addOrder
+[2016-07-15 15:00:02.055] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-15 15:00:02.070] INFO addOrder is ready.
+[2016-07-15 18:52:56.101] ERROR redis client on error: { Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+    at exports._errnoException (util.js:1008:11)
+    at TCP.onread (net.js:563:26) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+[2016-07-20 17:01:41.464] INFO logger inited
+[2016-07-20 17:01:41.471] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-20 17:01:41.472] INFO ==================================================================
+[2016-07-20 17:01:41.474] INFO memory, rss: 31 MB
+[2016-07-20 17:01:41.474] INFO memory, heap total: 18 MB
+[2016-07-20 17:01:41.475] INFO memory, heap used: 11 MB
+[2016-07-20 17:01:41.475] INFO ==================================================================
+[2016-07-20 17:01:41.477] DEBUG start sub channel :  QM
+[2016-07-20 17:01:41.478] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-20 17:01:41.495] INFO QM is ready.
+[2016-07-20 17:17:01.422] DEBUG mysql pool created.
+[2016-07-20 17:18:03.821] INFO logger inited
+[2016-07-20 17:18:03.827] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-20 17:18:03.829] INFO ==================================================================
+[2016-07-20 17:18:03.831] INFO memory, rss: 31 MB
+[2016-07-20 17:18:03.831] INFO memory, heap total: 18 MB
+[2016-07-20 17:18:03.831] INFO memory, heap used: 11 MB
+[2016-07-20 17:18:03.832] INFO ==================================================================
+[2016-07-20 17:18:03.833] DEBUG start sub channel :  QM
+[2016-07-20 17:18:03.835] DEBUG psub redit host : 127.0.0.1 port: 6379 pass: *
+[2016-07-20 17:18:03.851] INFO QM is ready.
+[2016-07-20 17:18:08.668] DEBUG mysql pool created.
+[2016-07-31 02:54:17.242] INFO logger inited
+[2016-07-31 02:54:17.246] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-31 02:54:17.247] INFO ==================================================================
+[2016-07-31 02:54:17.247] INFO memory, rss: 30 MB
+[2016-07-31 02:54:17.247] INFO memory, heap total: 16 MB
+[2016-07-31 02:54:17.248] INFO memory, heap used: 10 MB
+[2016-07-31 02:54:17.248] INFO ==================================================================
+[2016-07-31 02:54:17.249] DEBUG start sub channel :  QM
+[2016-07-31 02:54:17.252] DEBUG psub redit host : 139.196.172.208 port: 6379 pass: *
+[2016-07-31 02:54:17.366] INFO QM is ready.
+[2016-07-31 02:59:53.205] INFO logger inited
+[2016-07-31 02:59:53.209] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-31 02:59:53.210] INFO ==================================================================
+[2016-07-31 02:59:53.211] INFO memory, rss: 30 MB
+[2016-07-31 02:59:53.211] INFO memory, heap total: 16 MB
+[2016-07-31 02:59:53.211] INFO memory, heap used: 10 MB
+[2016-07-31 02:59:53.211] INFO ==================================================================
+[2016-07-31 02:59:53.213] DEBUG start sub channel :  QM
+[2016-07-31 02:59:53.213] DEBUG psub redit host : 139.196.172.208 port: 6379 pass: *
+[2016-07-31 02:59:53.290] INFO QM is ready.
+[2016-07-31 03:26:17.208] INFO logger inited
+[2016-07-31 03:26:17.213] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-31 03:26:17.214] INFO ==================================================================
+[2016-07-31 03:26:17.214] INFO memory, rss: 26 MB
+[2016-07-31 03:26:17.215] INFO memory, heap total: 17 MB
+[2016-07-31 03:26:17.215] INFO memory, heap used: 10 MB
+[2016-07-31 03:26:17.215] INFO ==================================================================
+[2016-07-31 03:26:17.217] DEBUG start sub channel :  QM
+[2016-07-31 03:26:17.218] DEBUG psub redit host : 139.196.172.208 port: 6379 pass: *
+[2016-07-31 03:26:17.230] INFO QM is ready.
+[2016-07-31 03:31:18.114] INFO logger inited
+[2016-07-31 03:31:18.119] DEBUG serverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[2016-07-31 03:31:18.119] INFO ==================================================================
+[2016-07-31 03:31:18.120] INFO memory, rss: 28 MB
+[2016-07-31 03:31:18.120] INFO memory, heap total: 17 MB
+[2016-07-31 03:31:18.120] INFO memory, heap used: 10 MB
+[2016-07-31 03:31:18.120] INFO ==================================================================
+[2016-07-31 03:31:18.123] DEBUG start sub channel :  QM
+[2016-07-31 03:31:18.123] DEBUG psub redit host : 139.196.172.208 port: 6379 pass: *
+[2016-07-31 03:31:18.137] INFO QM is ready.

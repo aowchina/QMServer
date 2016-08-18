@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="myfields">
+		<field name="id" type="text" default="0" label="ID" readonly="true" class="readonly" description="ID"/>
+		<field name="name" type="text" class="inputbox" size="30" label="名称" description="名称" required="true"/>
+		<field name="jgfw" type="text" class="inputbox" size="30" label="价格范围" description="价格范围" required="true"/>
+		<field name="fxzs" type="integer" default="" label="风险指数" description="风险指数" first="1" last="5" step="1"/>
+		<field name="cxsj" type="text" class="inputbox" size="30" label="持续时间" description="持续时间" required="true"/>
+		<field name="zlsc" type="text" class="inputbox" size="30" label="治疗时长" description="治疗时长" required="true"/>
+		<field name="zlcs" type="text" class="inputbox" size="30" label="治疗次数" description="治疗次数" required="true"/>
+		<field name="mzff" type="text" class="inputbox" size="30" label="麻醉方法" description="麻醉方法" required="true"/>
+		<field name="hfsj" type="text" class="inputbox" size="30" label="恢复时间" description="恢复时间" required="true"/>
+		<field name="cxsj2" type="text" class="inputbox" size="30" label="拆线时间" description="拆线时间" required="true"/>
+
+		<field name="sfzy" type="radio" default="1" label="是否住院" description="是否住院">
+			<option
+				value="1">JNO</option>
+			<option
+				value="2">JYES</option>
+		</field>
+
+		<field name="ptid" type="sql" default="0" label="所属类别" description="所属类别" query="select id as value, name as ptid from #__project_type"/>
+
+		<field name="jj" type="textarea" cols="30" rows="4" class="inputbox" label="简介" description="简介" required="true"/>
+
+		<field name="yd" type="textarea" cols="30" rows="4" class="inputbox" label="优点" description="优点" required="true"/>
+
+		<field name="qd" type="textarea" cols="30" rows="4" class="inputbox" label="缺点" description="缺点" required="true"/>
+
+		<field name="syrq" type="textarea" cols="30" rows="6" class="inputbox" label="适宜人群" description="适宜人群" required="true"/>
+
+		<field name="zysx" type="textarea" cols="30" rows="10" class="inputbox" label="注意事项" description="注意事项" required="true"/>
+
+		<field name="fxts" type="textarea" cols="30" rows="10" class="inputbox" label="风险提示" description="风险提示" required="true"/>
+
+		<field name="jjrq" type="textarea" cols="30" rows="10" class="inputbox" label="禁忌人群" description="禁忌人群" required="true"/>
+	</fieldset>
+</form>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fieldset name="myfields">
+		<field name="id" type="text" default="0" label="ID" readonly="true" class="readonly" description="ID"/>
+		<field name="orderid" type="text" class="readonly" readonly="true" label="订单号" description="订单号"/>
+		<field name="userid" type="text" class="readonly" readonly="true" label="下单用户ID" description="下单用户ID"/>
+		<field name="username" type="text" class="readonly" readonly="true" label="下单者昵称" description="下单者昵称"/>
+		<field name="tel" type="text" class="readonly" readonly="true" label="下单者手机号" description="下单者手机号"/>
+		<field name="tid" type="text" class="readonly" readonly="true" label="下单特惠ID" description="下单特惠ID"/>
+		<field name="tname" type="text" class="readonly" readonly="true" label="下单特惠" description="下单特惠"/>
+		<field name="hospital" type="text" class="readonly" readonly="true" label="对应医院" description="对应医院"/>
+
+		<field name="dj_real_money" type="text" class="readonly" readonly="true" label="实付定金" description=""/>
+		<field name="dj_hf_point" type="text" class="readonly" readonly="true" label="定金花费积分" description=""/>
+		<field name="dj_point_money" type="text" class="readonly" readonly="true" label="积分抵扣金额" description=""/>
+
+		<field name="wk_type" type="radio" class="btn-group" size="1" default="0" filter="intval" label="尾款支付方式" description="">
+			<option value="0">待缴纳</option>
+            <option value="1">线下支付</option>
+            <option value="2">线上支付</option>
+        </field>
+
+		<field name="wk_real_money" type="text" class="readonly" readonly="true" label="实付尾款" description=""/>
+		<field name="wk_hf_point" type="text" class="readonly" readonly="true" label="尾款花费积分" description=""/>
+		<field name="wk_point_money" type="text" class="readonly" readonly="true" label="积分抵扣金额" description=""/>
+
+		<field name="detail_img" type="editor" label="详情图片" description="" filter="JComponentHelper::filterText" buttons="false" width="800" height="400"/>
+	</fieldset>
+</form>

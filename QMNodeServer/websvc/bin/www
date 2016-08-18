@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+var debug = require('debug')('my-application');
+var app = require('../app');
+
+var port = 8000;
+if (process.env.PORT) {
+  port = process.env.PORT;
+}
+console.log("http server port is " + port);
+
+app.set('port', port);
+
+var server = app.listen(app.get('port'), function() {
+  debug('QM Node Server listening on port ' + server.address().port);
+});
