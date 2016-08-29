@@ -7,6 +7,7 @@
 
 //是否为医院名
 function isHospitalName($str){
+
     if(preg_match('/^[\x{4e00}-\x{9fa5}|a-zA-Z0-9\(\)\-\（\）]+$/u', $str)){
         return true;
     }
@@ -55,5 +56,13 @@ function isBirthday($str){
     
     return checkdate($mon, $day, $year);
 }
+
+//是否为订单号
+ function isOrderid($str){
+     if(preg_match("/^(quanmei)[0-9]{14,18}$/",$str)){
+         return true;
+     }
+     return false;
+ }
 
 ?>
