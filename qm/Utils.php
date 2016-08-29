@@ -5,7 +5,7 @@
  * date 2015-04-27
  */
 class Utils{
-    private $j_path = "/Users/ewonder/phpWorkspace/QMServer/quanmei/";
+    private $j_path = "/var/www/html/quanmei/";
     //private $j_path = "/Library/WebServer/Documents/projects/duiwai/1_quanmei/v1.0/server/qm/data/";
 
     private $exp_rule_name = '/^[\x{4e00}-\x{9fa5}|a-zA-Z0-9]{4,10}$/u';    //规则名称的正则
