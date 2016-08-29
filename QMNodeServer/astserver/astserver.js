@@ -21,7 +21,7 @@ function ASTServer(serverConfig) {
     self.serv_name = serverConfig.serv_name;
     i = 1;
     self.changeSecurityDeposit = setInterval(function(){
-        if(i%3==0||i%5==0||i%7==0){
+        if(i%3==0||i%7==0){
             myredis.getClient().set('securityDeposit',500000+i,function(err){
                 if(err){
                     console.log('securityDeposit set error!')
