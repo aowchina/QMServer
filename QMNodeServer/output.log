@@ -1,0 +1,84 @@
+[32m[2016-08-29 14:28:14.071] [INFO] MAIN - [39mlogger inited
+[36m[2016-08-29 14:28:14.075] [DEBUG] MAIN - [39mserverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[32m[2016-08-29 14:28:14.076] [INFO] MAIN - [39m==================================================================
+[32m[2016-08-29 14:28:14.076] [INFO] MAIN - [39mmemory, rss: 30 MB
+[32m[2016-08-29 14:28:14.079] [INFO] MAIN - [39mmemory, heap total: 16 MB
+[32m[2016-08-29 14:28:14.079] [INFO] MAIN - [39mmemory, heap used: 10 MB
+[32m[2016-08-29 14:28:14.080] [INFO] MAIN - [39m==================================================================
+[36m[2016-08-29 14:28:14.082] [DEBUG] MAIN - [39mstart sub channel :  QM
+[36m[2016-08-29 14:28:14.084] [DEBUG] MAIN - [39mpsub redit host : 1127.0.0.1 port: 6379 pass: *
+[31m[2016-08-29 14:28:15.529] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection to 1127.0.0.1:6379 failed - getaddri[31m[2016-08-30 12:11:00.974] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - read ETIMEDOUT] code: 'ETIMEDOUT', errno: 'ETIMEDOUT', syscall: 'read' }
+[32m[2016-08-30 12:11:02.477] [INFO] MAIN - [39mQM is ready.
+[31m[2016-08-30 14:59:51.923] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - read ETIMEDOUT] code: 'ETIMEDOUT', errno: 'ETIMEDOUT', syscall: 'read' }
+[32m[2016-08-30 14:59:52.356] [INFO] MAIN - [39mQM is ready.
+] code: 'ENETUNREACH', errno: 'ENETUNREACH', syscall: 'connect' }
+redis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - connect ENETUNREACH] code: 'ENETUNREACH', errno: 'ENETUNREACH', syscall: 'connect' }
+redis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - connect ENETUNREACH] code: 'ENETUNREACH', errno: 'ENETUNREACH', syscall: 'connect' }
+redis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - connect ENETUNREACH] code: 'ENETUNREACH', errno: 'ENETUNREACH', syscall: 'connect' }
+redis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - connect ENETUNREACH] code: 'ENETUNREACH', errno: 'ENETUNREACH', syscall: 'connect' }
+redis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - connect ENETUNREACH] code: 'ENETUNREACH', errno: 'ENETUNREACH', syscall: 'connect' }
+redis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - connect ENETUNREACH] code: 'ENETUNREACH', errno: 'ENETUNREACH', syscall: 'connect' }
+redis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - connect ENETUNREACH] code: 'ENETUNREACH', errno: 'ENETUNREACH', syscall: 'connect' }
+redis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - connect ENETUNREACH] code: 'ENETUNREACH', errno: 'ENETUNREACH', syscall: 'connect' }
+redis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - connect ENETUNREACH] code: 'ENETUNREACH', errno: 'ENETUNREACH', syscall: 'connect' }
+[31m[2016-08-30 12:08:35.415] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - read ETIMEDOUT] code: 'ETIMEDOUT', errno: 'ETIMEDOUT', syscall: 'read' }
+[32m[2016-08-30 12:08:37.042] [INFO] MAIN - [39mQM is ready.
+redis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - read ETIMEDOUT] code: 'ETIMEDOUT', errno: 'ETIMEDOUT', syscall: 'read' }
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+securityDeposit set error!
+[31m[2016-08-30 14:57:22.701] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection to 139.196.172.208:6379 failed - read ETIMEDOUT] code: 'ETIMEDOUT', errno: 'ETIMEDOUT', syscall: 'read' }
+[32m[2016-08-30 14:57:23.089] [INFO] MAIN - [39mQM is ready.
+  syscall: 'getaddrinfo',
+  hostname: '1127.0.0.1' }
+[31m[2016-08-29 14:32:58.443] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection to 1127.0.0.1:6379 failed - getaddrinfo ENOTFOUND 1127.0.0.1]
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: '1127.0.0.1' }
+[31m[2016-08-29 14:36:16.642] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection to 1127.0.0.1:6379 failed - getaddrinfo ENOTFOUND 1127.0.0.1]
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: '1127.0.0.1' }
+[31m[2016-08-29 14:41:53.578] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection to 1127.0.0.1:6379 failed - getaddrinfo ENOTFOUND 1127.0.0.1]
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: '1127.0.0.1' }
+[31m[2016-08-29 14:51:26.366] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection to 1127.0.0.1:6379 failed - getaddrinfo ENOTFOUND 1127.0.0.1]
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: '1127.0.0.1' }
+[31m[2016-08-29 15:07:40.101] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection to 1127.0.0.1:6379 failed - getaddrinfo ENOTFOUND 1127.0.0.1]
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: '1127.0.0.1' }
+[31m[2016-08-29 15:28:15.590] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection to 1127.0.0.1:6379 failed - getaddrinfo ENOTFOUND 1127.0.0.1]
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: '1127.0.0.1' }
+[31m[2016-08-29 15:28:15.596] [ERROR] MAIN - [39mredis client on error: { [Error: Redis connection in broken state: connection timeout exceeded.]
+  code: 'CONNECTION_BROKEN',
+  origin: 
+   { [Error: Redis connection to 1127.0.0.1:6379 failed - getaddrinfo ENOTFOUND 1127.0.0.1]
+     code: 'ENOTFOUND',
+     errno: 'ENOTFOUND',
+     syscall: 'getaddrinfo',
+     hostname: '1127.0.0.1' } }

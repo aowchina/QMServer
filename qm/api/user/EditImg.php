@@ -96,6 +96,8 @@ $user_info = dbLoad(dbQuery($sql, $con), true);
 
 $data['img'] = $s_url."files/user/".$user_repath.$new_filename;
 $data['intime'] = time();
+$r_data['img'] = $data['img'];
+$return_list['data'] = json_encode($r_data);
 
 if(dbUpdate($data, "qm_users_common", $con, "userid = $userid")){
     $old_img = getItem("img", $user_info);
