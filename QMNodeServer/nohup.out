@@ -1,0 +1,16 @@
+[32m[2016-08-29 14:05:09.874] [INFO] MAIN - [39mlogger inited
+[36m[2016-08-29 14:05:09.881] [DEBUG] MAIN - [39mserverConfig {"id":0,"path":"./","serv_name":"astserver","content":{"logger":{"levels":{"MAIN":"debug"},"appenders":[{"category":"MAIN","type":"file","filename":"./log/ast_0.log","maxLogSize":10485760,"backups":9,"layout":{"type":"pattern","pattern":"[%d] %p %m"},"makers":{}},{"category":"MAIN","type":"console","makers":{}}]}}}
+[32m[2016-08-29 14:05:09.882] [INFO] MAIN - [39m==================================================================
+[32m[2016-08-29 14:05:09.882] [INFO] MAIN - [39mmemory, rss: 26 MB
+[32m[2016-08-29 14:05:09.883] [INFO] MAIN - [39mmemory, heap total: 17 MB
+[32m[2016-08-29 14:05:09.883] [INFO] MAIN - [39mmemory, heap used: 10 MB
+[32m[2016-08-29 14:05:09.883] [INFO] MAIN - [39m==================================================================
+[36m[2016-08-29 14:05:09.885] [DEBUG] MAIN - [39mstart sub channel :  QM
+[36m[2016-08-29 14:05:09.887] [DEBUG] MAIN - [39mpsub redit host : 139.196.172.208 port: 6379 pass: *
+[32m[2016-08-29 14:05:09.915] [INFO] MAIN - [39mQM is ready.
+{
+	"host" : "139.196.172.208",
+	"port" : 6379
+}
+
+redis connection created.
