@@ -5,6 +5,7 @@
 
 /qm/configuration.php
 /qm/Utils.php
+.log
 Alg
 functions_mdb.php
 functions_mut.php
