@@ -79,6 +79,16 @@ if($count_tel > 0){
     toExit(15, $return_list);
 }
 
+//昵称验重
+$condition = "username = '$name'";
+$count_tel = dbCount('qm_users_common', $con, $condition);
+if($count_tel > 0){
+    unLock($dev_path.'lock');
+    closeDb($con);
+    unLock($db_lockname);
+    toExit(17, $return_list);
+}
+
 //检查该设备是否有其它用户在登录
 $condition = "deviceid = '$deviceid' and status = 1";
 $count = dbCount('qm_users_login', $con, $condition);

@@ -162,9 +162,10 @@ if(is_file($user_path.'logininfo')){
 $login_info[$key_name][] = $now_time;
 file_put_contents($user_path.'logininfo', json_encode($login_info));
 
-$sql = "select img from qm_users_common where userid = $userid";
+$sql = "select username,img from qm_users_common where userid = $userid";
 $now_userinfo = dbLoad(dbQuery($sql, $con), true);
 $userimg = $now_userinfo['img'];
+$r_data['username'] = getStrFromByte($now_userinfo['username']);
 if($userimg){
     $r_data['userimg'] = $userimg;
 }else{
